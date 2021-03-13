@@ -1,0 +1,6 @@
+L298PMotorShield KEYWORD1
+
+setMotorASpeed KEYWORD2
+setMotorBSpeed KEYWORD2
+setMotorABSpeed KEYWORD2
+buzz KEYWORD2
