@@ -42,7 +42,7 @@ void L298PMotorShield::setMotorASpeed(int speed){
     speed = 255;
     
 
-  analogWrite(_ENA, speed); // default to using analogWrite, mapping 400 to 255
+  analogWrite(_ENA, speed); // default to using analogWrite
 
   if (reverse) // flip if speed was negative or _flipM1 setting is active, but not both
     digitalWrite(_INA, HIGH);
